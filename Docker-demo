@@ -1,5 +1,7 @@
 Commands:
 -----------
+docker -v    (to know the docker version)
+docker version (to know the docker detailed version like server engine)
 docker pull ubuntu
 docker images
 docker ps
