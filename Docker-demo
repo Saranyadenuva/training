@@ -1,22 +1,25 @@
 Commands:
 -----------
-docker -v    (to know the docker version)
-docker version (to know the docker detailed version like server engine)
-docker pull ubuntu
-docker images
-docker ps
-docker ps -a
-docker run -it --name test-container containerID
-docker run -dt --name test-conatiner conatinerID
-docker exec -it containerID /bin/bash
-cntrl pq (To exit from the running container without stopping)
+docker -v                      (to know the docker version)
+docker version                 (to know the docker detailed version like server engine)
+docker pull ubuntu              (to download image from docker hub to local)
+docker images                    (to check all the images in local machine)
+docker search <image name>       (to find images in docker hub)
+docker ps                        (to see running containers)
+docker ps -a                      (to see all containers)
+docker run -it test-container containerID                    (to run and login in the container)
+docker run -it --name test-container containerID           (to give name of container and run the container)
+docker run -dt --name test-conatiner conatinerID            (to run container without login)
+docker exec -it containerID /bin/bash                       (to login running container)
+cntrl pq                      (To exit from the running container without stopping)
 docker system df -v
 docker system df 
-docker rmi imageID
-docker rm containerID
-docker stop containerID
-docker start containerID
+docker rmi imageID              (to delete image)
+docker rm containerID            (to delete container)
+docker stop containerID            (to stop container)
+docker start containerID              (to start container)
 docker attach containerID
+docker container ls -s              (to check the size of the container)
 
 
 Docker Volumes:
