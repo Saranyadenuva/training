@@ -20,6 +20,10 @@ docker stop containerID            (to stop container)
 docker start containerID              (to start container)
 docker attach containerID
 docker container ls -s              (to check the size of the container)
+docker run -d ubuntu sleep 100      (it will sleep after 100sec)
+docker run ubuntu cat /etc/*release*    (to check the details info of image like version image, image id etc)
+docker run ubuntu cat /etc/hostname     (to check the hostname of image)
+docker run ubuntu ip a                  (to check the IP address for the image)
 
 
 Docker Volumes:
