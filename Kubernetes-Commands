@@ -4,4 +4,4 @@ Kubectl api-resources | less      (It will list all the objects and API's presen
 
 Command to pull image from private docker hub registry using secrets
 --------------------------------------------------------------------------------------------------------------------
-kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=saranya1010 --docker-password=9398845528@S --docker-email=saranya.denuvakonda96@gmail.com
+kubectl create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=saranya1010 --docker-password=<password> --docker-email=saranya.denuvakonda96@gmail.com
