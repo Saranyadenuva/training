@@ -1,0 +1,1 @@
+Kubectl api-resources | less      (It will list all the objects and API's present in the cluster)
