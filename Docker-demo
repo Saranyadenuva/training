@@ -26,6 +26,11 @@ docker run ubuntu cat /etc/hostname     (to check the hostname of image)
 docker run ubuntu ip a                  (to check the IP address for the image)
 
 
+‘Got permission denied while trying to connect to the Docker daemon socket’
+----------------------------------------------------------------
+sudo chmod 666 /var/run/docker.sock
+
+
 Docker Volumes:
 -----------------
 docker run --name jenkins -p 8181:8080 -p 50000:50000 -v /var/lib/jenkins:/var/jenkins_home jenkins/jenkins:lts-jdk11
