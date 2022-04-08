@@ -26,7 +26,7 @@ docker run ubuntu cat /etc/hostname     (to check the hostname of image)
 docker run ubuntu ip a                  (to check the IP address for the image)
 
 
-‘Got permission denied while trying to connect to the Docker daemon socket’
+‘Got permission denied while trying to connect to the Docker daemon socket’ in jenkins
 ----------------------------------------------------------------
 sudo chmod 666 /var/run/docker.sock
 
